@@ -1,0 +1,54 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  border: solid black;
+  margin: 0 auto;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.food {
+  background-color: green;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: rgb(62, 37, 85);
+}
+
+.power {
+  background-color: cyan;
+  border-radius: 10px;
+}
+
+.pac-man {
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+  border: 0px;
+}
+.pink {
+  background-color: pink;
+  border: 0px;
+}
+.blue {
+  background-color: blue;
+  border: 0px;
+}
+.orange {
+  background-color: orange;
+  border: 0px;
+}
+.scared {
+  background-color: aquamarine;
+  border: 0px;
+}
